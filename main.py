@@ -172,7 +172,6 @@ def main() -> None:
         except requests.exceptions.ConnectionError:
             exit('You Are Not Connected!')
 
-        # phone_number = '+972507371001'  # input(">> ")
         parse_list_data(data_in_json)
 
         print("Done!")
